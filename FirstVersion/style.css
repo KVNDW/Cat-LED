@@ -1,0 +1,52 @@
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+  
+  }
+  
+  
+  .slider-container {
+  
+    display: flex;
+      transform: rotate(-90deg);
+      margin: 0 auto;
+     
+      color:lightcyan;
+  
+  }
+  
+  
+  .slider {
+    
+      width: 110%;
+    
+    }
+  
+  
+    
+    .led-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 21em;
+    }
+    
+    .led {
+      width: 3em;
+      height: 1em;
+      background-color:gray;
+      margin: 1em;
+      border: 0.05em solid rgb(120, 120, 120);
+    }
+  
+    #led1{
+      background-color:#2D009B;
+      box-shadow: 0 0 10px 2px#2D009B;
+    }
+  
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      padding: 0.5em;
+    }
+    
